@@ -1,0 +1,39 @@
+name: penilaian_22
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  get: 4.6.5
+  lottie: ^2.0.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  google_nav_bar: ^5.0.6
+  http: ^0.13.5
+
+flutter:
+  assets:
+    - f/
+  fonts:
+    - family: Urbanist
+      fonts:
+        - asset: f/fonts/Urbanist-Regular.ttf
+    - family: Poppins-sm
+      fonts:
+        - asset: f/fonts/Poppins-SemiBold.ttf
+    - family: Poppins-reg
+      fonts:
+        - asset: f/fonts/Poppins-Regular.ttf
+    - family: Poppins-bld
+      fonts:
+        - asset: f/fonts/Poppins-Bold.ttf
+
+  uses-material-design: true
